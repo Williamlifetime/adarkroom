@@ -350,7 +350,7 @@ msgstr "하이퍼 모드"
 
 #: script/engine.js:496
 msgid ""
-"turning hyper mode speeds up the game to x2 speed. do you want to do that?"
+"how many multiples of speed do you want to activate?"
 msgstr ""
 "하이퍼 모드로 전환하면 게임 진행 속도가 2배 빨라집니다. 하이퍼 모드로 전환하"
 "시겠습니까?"

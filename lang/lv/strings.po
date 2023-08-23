@@ -346,7 +346,7 @@ msgstr "Ieslēgt Hiperrežīmu?"
 
 #: script/engine.js:496
 msgid ""
-"turning hyper mode speeds up the game to x2 speed. do you want to do that?"
+"how many multiples of speed do you want to activate?"
 msgstr "hiperrežīms padara spēles gaitu divreiz ātrāku. vai vēlies to ieslēgt?"
 
 #: script/engine.js:519

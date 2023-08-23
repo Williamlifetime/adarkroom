@@ -351,7 +351,7 @@ msgstr ""
 
 #: script/engine.js:496
 msgid ""
-"turning hyper mode speeds up the game to x2 speed. do you want to do that?"
+"how many multiples of speed do you want to activate?"
 msgstr ""
 
 #: script/engine.js:519

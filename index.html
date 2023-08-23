@@ -36,7 +36,7 @@
 		// if no language requested, try to read it from local storage
 		if(!lang){
 			try {
-				lang = localStorage.lang;
+				lang = localStorage.lang || 'zh_cn';
 			} catch(e) {}
 		}
 		// if a language different than english requested, load all translations
@@ -90,7 +90,7 @@
 	
 	<script src="script/localization.js"></script>
 	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-606P6J79WH"></script>
+	<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-606P6J79WH"></script> -->
 	<script>
 		window.dataLayer = window.dataLayer || [];
 		function gtag(){dataLayer.push(arguments);}
