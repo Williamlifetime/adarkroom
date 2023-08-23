@@ -3335,3 +3335,7 @@ msgstr "这里留存着前代人的所有劳动果实"
 #: script/events/setpieces.js:3559
 msgid "ripe for the picking."
 msgstr "是时候采摘它们了"
+
+#: script/events/setpieces.js:3559
+msgid "A Ravaged Battleship"
+msgstr "毁坏的战舰"

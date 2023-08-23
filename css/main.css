@@ -56,10 +56,13 @@ div#saveNotify {
 div#content {
 	position: relative;
 	overflow: hidden;
-	height: 700px;
+	overflow-y: auto;
+	height: 90vh;
 }
 
 div#header {
+	position: relative;
+	z-index: 99;
 	padding-bottom: 20px;
 	height: 20px;
 }
@@ -178,8 +181,9 @@ div#outerSlider > div {
 	position: relative;
 	float: left;
 	width: 700px;
-	height: 700px;
+	height: 90vh;
 	overflow: hidden;
+	overflow-y: auto;
 }
 
 div#locationSlider {
@@ -663,3 +667,11 @@ body.noMask #description {
 #dropMenu > div:hover {
 	text-decoration: underline;
 }
+
+::-webkit-scrollbar{width:4px;height:6px;
+    background-color: #00000040;
+}
+
+::-webkit-scrollbar-thumb{background-color:rgba(0,0,0,1);border-radius:10px;}
+
+::-webkit-scrollbar-track{background-color:transparent; }
